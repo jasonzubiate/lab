@@ -18,7 +18,7 @@ export default function LabOne() {
         paddingRight: isExpanded ? "8px" : "12px",
       }}
       animate={isExpanded ? { width: "340px" } : { width: "110px" }}
-      className="flex items-center rounded-full bg-zinc-950 pl-2 py-2 scale-200 relative cursor-pointer"
+      className="flex items-center rounded-full bg-zinc-950 pl-2 py-2 scale-100 relative cursor-pointer"
     >
       <div className="h-10 w-10 min-w-10 rounded-full bg-zinc-800 relative overflow-hidden">
         <Image
